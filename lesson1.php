@@ -19,11 +19,11 @@
 // 自己紹介→年齢加算→自己紹介の順にメソッドを動かして年齢を確認してください。
 
 class Person{
-    public /*string*/ $name;
+    public string $name;
 
-    public /*int*/ $age;
+    public int $age;
 
-    public /*string*/ $gender;
+    public string $gender;
 
     function __construct($name, $age, $gender){
 

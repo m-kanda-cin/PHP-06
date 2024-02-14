@@ -33,8 +33,8 @@ require_once("lesson1.php");
 
 class Patient extends Person{
 
-    private /*float*/ $height;
-    private /*float*/ $weight;
+    private float $height;
+    private float $weight;
 
     function __construct($name, $age, $gender, $height, $weight){
         $this->name = $name;
